@@ -10,7 +10,7 @@ public class Palindrome {
 
         System.out.println(inputSentence);
         System.out.println(wordReversed);
-        if(inputSentence.equals(wordReversed.toString()))    //porównanie
+        if(inputSentence.equals(wordReversed.toString()))
             System.out.println("Palindrome");
         else System.out.println("Not palindrome");
 
